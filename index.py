@@ -105,10 +105,10 @@ if submit:
 
         st.write("Maize price in {} is Low sales".format(Q2))
     elif maize_price[0] == 1:
-        st.write("Maize price in {} is  medium sales".format(Q2)) 
+        st.write("Maize price in {} is  Medium sales".format(Q2)) 
 
     elif maize_price[0] == 2:
-        st.write("Maize price in {} is  medium sales".format(Q2))
+        st.write("Maize price in {} is  High sales".format(Q2))
 
 
     
