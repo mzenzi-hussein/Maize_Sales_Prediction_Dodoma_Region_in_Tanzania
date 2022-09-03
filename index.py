@@ -103,12 +103,12 @@ if submit:
     maize_price = model.predict(data)
     if maize_price[0] == 0:
 
-        st.write("Maize price in {} is Low sales".format(Q2))
+        st.write("Maize price in {} is low sales".format(Q2))
     elif maize_price[0] == 1:
-        st.write("Maize price in {} is  Medium sales".format(Q2)) 
+        st.write("Maize price in {} is  medium sales".format(Q2)) 
 
     elif maize_price[0] == 2:
-        st.write("Maize price in {} is  High sales".format(Q2))
+        st.write("Maize price in {} is  high sales".format(Q2))
 
 
     
